@@ -315,6 +315,7 @@
      </div>
 
     <form>
+        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
         <label for="name">Имя</label>
         <input type="text" name="name" id="name">
     
@@ -324,8 +325,8 @@
         <label for="mail">Почта</label>
         <input type="email" name="mail" id="mail">
     
-        <label>Комментарий</label>
-        <textarea name="feedback"></textarea>
+        <label class="form-label" for="user-notes">Комментарии</label>
+        <textarea class="form-textarea" name="user-notes" id="user-notes" placeholder="Введите текст"></textarea>
         <br>
         <input type="checkbox" name="" value="" id="">
         <p>Соглашаюсь с рассылкой и принимаю Условия договора</p>
@@ -391,7 +392,7 @@
                         placeholder="E-mail" required="">
                     <button class="form-submit-btn" type="submit">
                         Подписаться
-                        <svg class="form-submit-icon">
+                        <svg class="form-icon">
                             <use href="./images/symbol2.svg#icon-send-footer"></use>
                         </svg>
                     </button>

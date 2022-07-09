@@ -902,6 +902,18 @@ footer{
     fill: #FFFFFF;
   }
 
+  /* Форма */
+
+  .form-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin-bottom: 12px;
+        }
+  
+
   .footer-right-block {
       margin-left: auto;
       color: rgba(255, 255, 255, 1);
@@ -960,16 +972,16 @@ footer{
       font-size: 16px;
       line-height: 1.875;
       letter-spacing: 0.06em;
-      color: var(--modal-submit-btn-color);
-      box-shadow: var(--modal-submit-btn-shadow);
+
+      color: rgba(255, 255, 255, 1);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       background-color: var(--accent-color);
       border: none;
-      border-radius: var(--modal-board-radius);
+      border-radius: 4px;
       cursor: pointer;
-      transition: background-color var(--defaul-duration) var(--default-timing);
   }
 
-  .form-submit-icon {
+  .form-icon {
       width: 24px;
       height: 24px;
       margin-left: 10px;
