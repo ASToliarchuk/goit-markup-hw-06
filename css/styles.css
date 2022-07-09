@@ -902,6 +902,80 @@ footer{
     fill: #FFFFFF;
   }
 
+  .footer-right-block {
+      margin-left: auto;
+      color: rgba(255, 255, 255, 1);
+  }
+  
+  .footer-cta {
+      display: block;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+  }
+
+  .subscription {
+      display: flex;
+      align-items: center;
+  }
+
+  .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+  }
+
+  .subscription-input {
+      display: flex;
+      align-items: center;
+      
+      min-width: 358px;
+      height: 50px;
+      padding: 0;
+      padding-left: 16px;
+      margin-right: 12px;
+      font-size: 16px;
+      line-height: 1.25;
+
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+  }
+
+  .form-submit-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 200px;
+      height: 50px;
+      padding: 0;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.875;
+      letter-spacing: 0.06em;
+      color: var(--modal-submit-btn-color);
+      box-shadow: var(--modal-submit-btn-shadow);
+      background-color: var(--accent-color);
+      border: none;
+      border-radius: var(--modal-board-radius);
+      cursor: pointer;
+      transition: background-color var(--defaul-duration) var(--default-timing);
+  }
+
+  .form-submit-icon {
+      width: 24px;
+      height: 24px;
+      margin-left: 10px;
+      fill: #FFFFFF;
+    
+  }
 
   /* Кнопка */
 

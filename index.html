@@ -314,6 +314,27 @@
         </div>
      </div>
 
+    <form>
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name">
+    
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel">
+    
+        <label for="mail">Почта</label>
+        <input type="email" name="mail" id="mail">
+    
+        <label>Комментарий</label>
+        <textarea name="feedback"></textarea>
+        <br>
+        <input type="checkbox" name="" value="" id="">
+        <p>Соглашаюсь с рассылкой и принимаю Условия договора</p>
+    
+        <button type="submit">Отправить</button>
+    
+    
+    </form>
+
     <!--Подвал-->
     <footer>
         <div class="container footer-blok">
@@ -362,9 +383,21 @@
                 </ul>
             </div>
 
-            
-            
-            
+            <div class="footer-right-block">
+                <b class="footer-cta">Подпишитесь на рассылку</b>
+                <form class="subscription" name="subscription" autocomplete="on">
+                    <label class="visually-hidden" for="subsrtiption-email">Почта</label>
+                    <input class="subscription-input" type="email" name="subsrtiption-email" id="subsrtiption-email"
+                        placeholder="E-mail" required="">
+                    <button class="form-submit-btn" type="submit">
+                        Подписаться
+                        <svg class="form-submit-icon">
+                            <use href="./images/symbol2.svg#icon-send-footer"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
         </div>
               
         
