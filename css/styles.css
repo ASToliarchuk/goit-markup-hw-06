@@ -880,6 +880,7 @@ textarea {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -887,7 +888,6 @@ textarea {
     color: #757575;
     padding-left: 24px;
     }
-
 
 .visually-hidden {
     position: absolute;
@@ -954,7 +954,7 @@ textarea {
 }
 
 
-.form-btn {
+.form-submit-btn {
     display: flex;
     align-items: center;
     justify-content: center;
